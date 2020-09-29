@@ -1,4 +1,4 @@
-#include "rng-utils.hpp"
+#include <DES/rng-utils.hpp>
 #include <vector>
 
 template<typename Distro>
@@ -28,5 +28,9 @@ auto random_population(int nrow, int ncol, double par1, double par2) -> des::Pop
 	for (int i = 0; i < ncol; ++i)
 		pop.col(i) = points[i];
 	return pop;
+}
+
+int main() {
+	return 0;
 }
 

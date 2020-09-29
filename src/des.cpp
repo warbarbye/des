@@ -1,5 +1,5 @@
-#include "des.hpp"
-#include "rng-utils.hpp"
+#include <DES/des.hpp>
+#include <DES/rng-utils.hpp>
 #include <iostream>
 #include <cmath>
 #include <cassert>

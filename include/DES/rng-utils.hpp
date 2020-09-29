@@ -2,7 +2,7 @@
 #define RNG_UTILS_HPP
 
 #include <random>
-#include "des.hpp"
+#include <DES/des.hpp>
 
 using normal_distro = std::normal_distribution<double>;
 using uniform_distro = std::uniform_real_distribution<double>;
